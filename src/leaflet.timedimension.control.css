@@ -8,9 +8,7 @@
      /* Added this to make main container invisible */
      background-color: transparent;  /* #fff  transparent sindimo*/
      border: none !important;        /* remove border sindimo */
-     bottom: 14vh; /*Move the slider up a bit sindimo*/
-
-
+     bottom: 12vh;  /* 12vh Move the slider up a bit sindimo*/
 
 }
 .leaflet-bar-timecontrol * {
@@ -23,7 +21,6 @@
     border: solid #a5a5a5;
     background-color:#fff;
     border-width: 0 1px 0 0;
-    /*bottom: 13vh; */ /*Move the slider up a bit sindimo*/
 
 }
 .leaflet-bar-timecontrol .leaflet-control-timecontrol:first-child {
