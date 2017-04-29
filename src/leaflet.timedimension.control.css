@@ -2,6 +2,7 @@
     font-family: 'Glyphicons Halflings';
     src: url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');
     src: url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+
 }
 .leaflet-bar-timecontrol{
 
@@ -9,6 +10,7 @@
      background-color: transparent;  /* #fff  transparent sindimo*/
      border: none !important;        /* remove border sindimo */
      bottom: 12vh;  /* 12vh Move the slider up a bit sindimo*/
+     font-size: 0.8vw; /*sindimo this controls the size of the date and time displayed on the slider*/
 
 }
 .leaflet-bar-timecontrol * {
@@ -30,8 +32,9 @@
     border-radius: 0 4px 4px 0;
 }
 .leaflet-bar-timecontrol .leaflet-control-timecontrol:before {
-    font-family: "Glyphicons Halflings";
+    font-family: "Glyphicons Halflings"; 
     display: block;
+    font-size: 0.8vw; /*sindimo this controls the size of the play button arrow*/
 }
 .leaflet-bar-timecontrol .timecontrol-slider {
     position: relative;
@@ -284,8 +287,8 @@ a.timecontrol-play.loading:before {
     }
 }
 .leaflet-touch .leaflet-bar-timecontrol .leaflet-control-timecontrol{
-     height: 30px;
-    line-height: 30px;
+    height: 2.5vh;       /*sindimo original value is 30px */
+    line-height: 2.5vh;   /*sindimo original value is 30px */
 }
 .leaflet-touch .timecontrol-slider .slider{
     margin-top: 10px;
